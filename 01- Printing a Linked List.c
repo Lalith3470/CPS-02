@@ -31,7 +31,6 @@ LinkedListNode* _insert_node_into_singlylinkedlist(LinkedListNode *head, LinkedL
 /*
  * Complete the function below.
  */
-
 /*For your reference:
 LinkedListNode {
     int val;
