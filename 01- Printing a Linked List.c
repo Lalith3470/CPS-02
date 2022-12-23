@@ -43,7 +43,6 @@ void print(LinkedListNode* head) {
          return;
      printf("%d\n",head->val);
      print(head->next);
-
 }
 
 //BODY ENDS HERE
@@ -65,8 +64,6 @@ int main()
             head = head_tail;
         }
     }
-
-
     print(head);
     //printf("\n");
     
