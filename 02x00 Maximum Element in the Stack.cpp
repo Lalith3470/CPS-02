@@ -13,8 +13,7 @@ int main() {
     cin >> q;
     while(q--){
         cin >> t;
-        if(t == 1)
-        {
+        if(t == 1){
             cin >> v;
             if(ma.empty())
                 ma.push(v);
