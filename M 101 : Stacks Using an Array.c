@@ -6,8 +6,8 @@
 int stackArr[100005];
 int top = -1;// - Stores the index of the topmost element on the stack
 void push(int x){
-top++;
-stackArr[top]=x;
+    top++;
+    stackArr[top]=x;
 } //- Insert an element onto the top of the stack
 int peek(){
 return stackArr[top];
