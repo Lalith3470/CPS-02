@@ -23,8 +23,7 @@ int empty(){
         return 0;
 }// - Returns 1 if the stack is empty and 0 otherwise
 //TAIL
-int main()
-{
+int main(){
     int n;
     top = -1;
     scanf("%d", &n);
