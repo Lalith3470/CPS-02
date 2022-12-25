@@ -24,7 +24,6 @@ return 0;
 }// - Returns 1 if the stack is empty and 0 otherwise
 
 //TAIL
-
 int main()
 {
     int n;
