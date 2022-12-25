@@ -10,19 +10,18 @@ void push(int x){
     stackArr[top]=x;
 } //- Insert an element onto the top of the stack
 int peek(){
-return stackArr[top];
+    return stackArr[top];
 } //- Returns the topmost element on the stack
 void pop(){
-stackArr[top]=NULL;
-top--;
+    stackArr[top]=NULL;
+    top--;
 } //- Removes an element from the top of the stack
 int empty(){
-if(top==-1)
-return 1;
-else
-return 0;
+    if(top==-1)
+        return 1;
+    else
+        return 0;
 }// - Returns 1 if the stack is empty and 0 otherwise
-
 //TAIL
 int main()
 {
