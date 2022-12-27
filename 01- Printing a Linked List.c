@@ -15,8 +15,7 @@ LinkedListNode* _insert_node_into_singlylinkedlist(LinkedListNode *head, LinkedL
         head = (LinkedListNode *) (malloc(sizeof(LinkedListNode)));
         head->val = val;
         head->next = NULL;
-        tail = head;
-    }
+        tail = head;}
     else {
         LinkedListNode *node = (LinkedListNode *) (malloc(sizeof(LinkedListNode)));
         node->val = val;
