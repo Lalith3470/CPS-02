@@ -25,7 +25,6 @@ LinkedListNode* _insert_node_into_singlylinkedlist(LinkedListNode *head, LinkedL
     }
     return tail;
 }
-
 // BODY STARTS HERE
 /*
  * Complete the function below.
