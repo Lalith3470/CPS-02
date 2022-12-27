@@ -36,7 +36,6 @@ LinkedListNode {
     LinkedListNode *next;
 };
 */
-
 void print(LinkedListNode* head) {
     if(head==NULL)
          return;
