@@ -30,8 +30,7 @@ int main() {
             }
             s.pop();
         }
-        else if(t == 3)
-        {
+        else if(t == 3){
             cout << ma.top() << endl;
         }
     }
