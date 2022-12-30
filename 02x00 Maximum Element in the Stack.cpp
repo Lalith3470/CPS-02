@@ -18,8 +18,7 @@ int main() {
             cin >> v;
             if(ma.empty())
                 ma.push(v);
-            else if(v > ma.top())
-            {
+            else if(v > ma.top()){
                 ma.push(v);
             }
             s.push(v);
