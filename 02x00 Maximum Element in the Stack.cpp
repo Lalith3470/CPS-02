@@ -37,5 +37,6 @@ int main() {
             cout << ma.top() << endl;
         }
     }
+    
     return 0;
 }
