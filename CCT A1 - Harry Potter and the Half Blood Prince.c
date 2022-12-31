@@ -10,7 +10,6 @@ struct LinkedListNode {
     int val;
     LinkedListNode *next;
 };
-
 LinkedListNode* _insert_node_into_singlylinkedlist(LinkedListNode *head, LinkedListNode *tail, int val) {
     if(head == NULL) {
         head = (LinkedListNode *) (malloc(sizeof(LinkedListNode)));
