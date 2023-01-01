@@ -41,7 +41,6 @@ void print(LinkedListNode* head) {
      print(head->next);
 }
 //BODY ENDS HERE
-
 int main()
 {
     int head_size = 0;
