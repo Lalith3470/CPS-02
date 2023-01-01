@@ -58,5 +58,4 @@ int main(){
     }
     print(head);
     //printf("\n");
-    
     return 0;
