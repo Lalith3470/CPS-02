@@ -40,7 +40,6 @@ void print(LinkedListNode* head) {
      printf("%d\n",head->val);
      print(head->next);
 }
-
 //BODY ENDS HERE
 
 int main()
