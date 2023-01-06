@@ -116,7 +116,6 @@ int main()
 
         res = res->next;
     }
-
     fclose(f);
     return 0;
 }
