@@ -43,8 +43,7 @@ LinkedListNode* reverse(LinkedListNode* head)
         LinkedListNode* next = curr->next;
         curr->next = prev;
         prev = curr;
-        curr = next;
-    }
+        curr = next;}
     return prev;
 }
 // function used to reverse a linked list from position m to n
