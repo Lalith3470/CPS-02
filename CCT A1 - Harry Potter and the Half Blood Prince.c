@@ -106,7 +106,6 @@ int main()
             head = head_tail;
         }
     }
-
     int n;
     scanf("%d", &n);
 
