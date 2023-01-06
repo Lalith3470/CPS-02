@@ -112,7 +112,6 @@ int main()
 
     int m;
     scanf("%d", &m);
-
     res = reverseSublist(head, n, m);
     while (res != NULL) {
         fprintf(f, "%d ", res->val);
