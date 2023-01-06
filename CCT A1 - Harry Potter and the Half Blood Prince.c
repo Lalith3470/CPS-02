@@ -92,7 +92,6 @@ int main()
 
     LinkedListNode* res;
     int head_size = 0;
-
     LinkedListNode* head = NULL;
     LinkedListNode* head_tail = NULL;
     scanf("%d\n", &head_size);
