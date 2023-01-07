@@ -23,8 +23,7 @@ int main() {
             s.push(v);
         }
         else if(t == 2){
-            if(s.top() == ma.top())
-            {
+            if(s.top() == ma.top()){
                 ma.pop();
             }
             s.pop();
