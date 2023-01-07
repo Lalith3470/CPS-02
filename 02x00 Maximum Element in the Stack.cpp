@@ -31,7 +31,6 @@ int main() {
         else if(t == 3){
             cout << ma.top() << endl;
         }
-    }  
-    
+    }     
     return 0;
 }
