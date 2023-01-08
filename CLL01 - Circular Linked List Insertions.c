@@ -10,8 +10,6 @@ struct LinkedListNode {
 	int val;
 	struct LinkedListNode* next;
 };
-
-
 //-------------------- body of the code ------------------------
 
 
