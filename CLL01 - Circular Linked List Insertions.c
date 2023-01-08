@@ -41,8 +41,6 @@ LinkedListNode* insertAtEnd(LinkedListNode* tail, int val) {
     return tail;
 
 }
-
-
 //-------------------- tail of the code ------------------------
 
 int rng(int lim) {
