@@ -37,7 +37,6 @@ LinkedListNode* insertAtEnd(LinkedListNode* tail, int val) {
     tail->next = temp;
     tail=temp;}
     return tail;
-
 }
 //-------------------- tail of the code ------------------------
 
