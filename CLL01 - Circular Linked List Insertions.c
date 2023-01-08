@@ -100,7 +100,6 @@ int main(){
 					return 0;
 				}
 			}
-
 		}
 	}
 	printf("correct");
