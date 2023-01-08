@@ -73,7 +73,7 @@ int check(LinkedListNode* tail) {
 	}
 	return 1;
 }
-int main() {
+int main(){
 	srand(time(NULL));
 	int t, n; in(t); in(n);
 	while (t--) {
