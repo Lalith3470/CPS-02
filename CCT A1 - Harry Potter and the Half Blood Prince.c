@@ -6,6 +6,7 @@
 #include <limits.h>
 #include <stdbool.h>
 typedef struct LinkedListNode LinkedListNode;
+
 struct LinkedListNode {
     int val;
     LinkedListNode *next;
