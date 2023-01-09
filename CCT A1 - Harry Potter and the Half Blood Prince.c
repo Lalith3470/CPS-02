@@ -5,7 +5,6 @@
 #include <assert.h>
 #include <limits.h>
 #include <stdbool.h>
-
 typedef struct LinkedListNode LinkedListNode;
 
 struct LinkedListNode {
