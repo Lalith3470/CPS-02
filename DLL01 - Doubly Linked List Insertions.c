@@ -12,7 +12,6 @@ struct LinkedListNode {
 	struct LinkedListNode* prev;
 };
 
-
 //-------------------- body of the code ------------------------
 
 
