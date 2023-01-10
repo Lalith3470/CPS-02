@@ -12,7 +12,6 @@ struct LinkedListNode {
 	struct LinkedListNode* prev;
 };
 //-------------------- body of the code ------------------------
-
 LinkedListNode* insertAtBeginning(LinkedListNode* head, int val) {
     struct LinkedListNode* newnode = (struct LinkedListNode*)malloc(sizeof(struct LinkedListNode));
     newnode->val=val;
