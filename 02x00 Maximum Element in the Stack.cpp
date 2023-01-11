@@ -11,6 +11,7 @@ int main() {
     int m = -1;
     int q,t,v;
     cin >> q;
+
     while(q--){
         cin >> t;
         if(t == 1){
