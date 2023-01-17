@@ -24,6 +24,7 @@ LinkedListNode* insertAtBeginning(LinkedListNode* tail, int val) {
     tail->next = temp;}
     return tail;
 }
+
 LinkedListNode* insertAtEnd(LinkedListNode* tail, int val) {
     LinkedListNode* temp= (LinkedListNode*)malloc(sizeof(LinkedListNode));
     temp->val=val;
