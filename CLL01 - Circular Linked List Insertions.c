@@ -10,6 +10,7 @@ struct LinkedListNode {
 	int val;
 	struct LinkedListNode* next;
 };
+
 //-------------------- body of the code ------------------------
 LinkedListNode* insertAtBeginning(LinkedListNode* tail, int val) {
     LinkedListNode* temp= (LinkedListNode*)malloc(sizeof(LinkedListNode));
