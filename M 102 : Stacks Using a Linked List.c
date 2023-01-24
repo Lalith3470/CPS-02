@@ -2,7 +2,6 @@
 #include "string.h"
 #include "stdlib.h"
 #include "math.h"
-
 //BODY
 int stackArr[100005];
 int top = -1;// - Stores the index of the topmost element on the stack
