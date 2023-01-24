@@ -17,10 +17,10 @@ void pop(){
     top--;
 } //- Removes an element from the top of the stack
 int empty(){
-if(top==-1)
-return 1;
-else
-return 0;
+    if(top==-1)
+        return 1;
+    else
+        return 0;
 }// - Returns 1 if the stack is empty and 0 otherwise
 
 //TAIL
